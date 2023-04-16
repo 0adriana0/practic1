@@ -14,7 +14,27 @@ ul {
     list-style: none;
 }
 
-.nav-list-lint {
+.nav-list-link {
+    color: #7D7D7D;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.button {
+    font-family: 'Ubuntu';
+    color: #B4AD9E;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.title {
+    width: 379px;
+    color: #626262;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.text {
     color: #626262;
     line-height: 19px;
     font-size: 14px;
