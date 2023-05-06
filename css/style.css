@@ -11,6 +11,10 @@ h2, p, ul{
     margin: 0;
 }
 
+img,button{
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -55,8 +59,10 @@ ul {
 
 
 .main-list-text {
+    margin-bottom: 32px;
     font-family: 'Ubuntu', sans-serif;
     color: #B4AD9E;
+    font-weight: 300;
     line-height: 1.14;
 }
 
@@ -79,6 +85,12 @@ ul {
     margin: 0 auto;
 }
 
+.img{
+    margin-bottom: 62px;
+    height: 280px;
+    width: 420px;
+}
+
 .main-list-item:not(:nth-child(n+5)){
     margin-bottom: 130px;
     font-weight: 400px;
@@ -87,21 +99,12 @@ ul {
 
 .btn{
     font-family: 'Playfair Display' ,serif;
-    align-items: center;
-    display: flex;
     margin: 90px auto 0;
     width: 165px;
     height: 60px;
-    justify-content: center;
     line-height: 1.35;
     font-weight: 400;
     color: #626262;
     border: 1px solid #626262;
     background-color: #fff;
 }
-
-
-
-
-
-
