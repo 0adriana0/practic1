@@ -1,0 +1,58 @@
+
+.main-list {
+    display: flex;
+    width: 906px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    &__item:not(:nth-child(n+5)) {
+            margin-bottom: 130px;
+            font-weight: 400px;
+            line-height: 19px;
+        }
+    
+    &__img {
+        margin-bottom: 62px;
+        height: 280px;
+        width: 420px;
+    }
+
+    &__label {
+        margin-bottom: 32px;
+        font-family: 'Ubuntu', sans-serif;
+        color: getColor('secondary');
+        font-weight: 300;
+        line-height: 1.14;
+    }
+
+    &__title {
+        line-height: 1.33;
+        font-size: 30px;
+        font-weight: 400;
+        color: getColor('primary');
+    }
+
+    &__description {
+        width: 420px;
+        line-height: 1.35;
+        color: getColor('primary');
+    }
+}
+
+
+
+.btn {
+    font-family: 'Playfair Display', serif;
+    margin: 90px auto 0;
+    width: 165px;
+    height: 60px;
+    line-height: 1.35;
+    font-weight: 400;
+    color: getColor('primary');
+    border: 1px solid getColor('primary');
+}
+
+.content {
+    padding-bottom: 66px;
+}

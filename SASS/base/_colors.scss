@@ -1,0 +1,15 @@
+// $color-navigation: #7D7D7D;
+// $color-nav-hover: #03a9f4;
+// $color-primary: #626262;
+// $color-secondary: #B4AD9E;
+
+$colors: (
+    'navigation':#7D7D7D,
+    'nav-hover': #03a9f4,
+    'primary': #626262,
+    'secondary': #B4AD9E,
+);
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+}

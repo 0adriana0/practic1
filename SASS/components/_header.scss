@@ -1,0 +1,22 @@
+.page-header {
+    display: flex;
+    justify-content: center;
+
+    .nav-menu {
+            padding: 71px 0px 92px;
+        }
+}
+
+.navigation-list {
+    width: 555px;
+    display: flex;
+    justify-content: space-between;
+
+    &__link{
+        color: getColor('navigation');
+
+        &:hover, &:focus{
+            color: getColor('nav-hover');
+        }
+    }
+}
